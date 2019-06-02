@@ -35,6 +35,12 @@
             	"scopeName": "source.pde",
             	"path": "./syntax/pde.tmLanguage.json"
 			}
+		],
+		"snippets": [
+			{
+				"language": "processing",
+				"path": "./snippets.json"
+			}
 		]
 	},
 	"scripts": {
