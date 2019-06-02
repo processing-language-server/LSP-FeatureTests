@@ -4,7 +4,8 @@ export function activate(context: vscode.ExtensionContext) {
 
 	console.log('Congratulations, your extension "processing-extension" is now active!');
 
-	let disposable = vscode.commands.registerCommand('extension.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('extension.processing', () => {
+		// Test Pop-up
 		vscode.window.showInformationMessage('Processing Language Server Activated.!');
 	});
 
