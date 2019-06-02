@@ -21,6 +21,20 @@
 				"command": "extension.processing",
 				"title": "Activate Processing LSP"
 			}
+		],
+		"languages": [
+			{
+			  "id": "processing",
+			  "extensions": [".pde"],
+			  "configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+            	"language": "processing",
+            	"scopeName": "source.pde",
+            	"path": "./syntax/pde.tmLanguage.json"
+			}
 		]
 	},
 	"scripts": {
