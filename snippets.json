@@ -6,7 +6,7 @@
 				"$1",
 			"}",
 			"void draw(){",
-				"",
+				"$2",
 			"}"
 		],
 		"description": "Initialize Processing Sketch"
